@@ -1,0 +1,24 @@
+﻿<Window x:Name="MainWindow1" x:Class="Ekzamen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ekzamen"
+        mc:Ignorable="d"
+        Title="Список задач" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto" MinWidth="512"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonAdd" Content="Добавить список" HorizontalAlignment="Left" Margin="33,144,0,0" VerticalAlignment="Top" Width="167" Height="38" FontSize="18" BorderBrush="White" Foreground="Black" Background="White" Click="Button_Click_1"/>
+        <Frame Content="" Grid.Column="1" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="502"/>
+        <Label x:Name="LabelVxod" Content="Входящие" Grid.Column="1" HorizontalAlignment="Left" Margin="50,24,0,0" VerticalAlignment="Top" Height="46" Width="161" FontSize="18"/>
+        <Frame x:Name="MainFrame" Content="" Grid.Column="1" Margin="0,0,20,20"/>
+        <Button x:Name="ButtonVxod" Content="Входящие" HorizontalAlignment="Left" Margin="33,10,0,0" VerticalAlignment="Top" Width="203" Height="36" BorderBrush="#FF8D8D8D" Background="White" Click="ButtonVxod_Click" FontSize="16"/>
+        <Button x:Name="ButtonToday" Content="Сегодня" HorizontalAlignment="Left" Margin="33,51,0,0" VerticalAlignment="Top" Width="203" Height="36" Background="White" BorderBrush="#FF939393" Click="ButtonToday_Click" FontSize="16"/>
+        <Button x:Name="ButtonFuture" Content="Предстоящие" HorizontalAlignment="Left" Margin="33,92,0,0" VerticalAlignment="Top" Width="203" Height="36" BorderBrush="#FF999999" Background="White" Click="ButtonFuture_Click" FontSize="16"/>
+        <Button x:Name="ButtonAddTask" Content="Добавить задачу" Grid.Column="1" HorizontalAlignment="Left" Margin="50,137,0,0" VerticalAlignment="Top" Width="132" Background="White" Height="45" BorderBrush="White" FontSize="16"/>
+
+    </Grid>
+</Window>

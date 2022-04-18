@@ -1,0 +1,6 @@
+C:\Users\Администратор\source\repos\Ekzamen\Service\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Users\Администратор\source\repos\Ekzamen\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\Ekzamen\Service\bin\Debug\Service.dll
+C:\Users\Администратор\source\repos\Ekzamen\Service\bin\Debug\Service.pdb
+C:\Users\Администратор\source\repos\Ekzamen\Service\obj\Debug\Service.dll
+C:\Users\Администратор\source\repos\Ekzamen\Service\obj\Debug\Service.pdb
